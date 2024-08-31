@@ -1,10 +1,10 @@
-CpanelPostgresBackup
+CpanelPostgresBackupCLI
 ====================
 
 Descripción
 -----------
 
-CpanelPostgresBackup es una herramienta de línea de comandos (CLI) escrita en Python que permite realizar respaldos de bases de datos PostgreSQL a través de cPanel utilizando su interfaz de phpPgAdmin. Este script facilita el proceso de autenticación, exportación de datos y estructuras, y descarga de respaldos en formatos plano (.sql) o comprimido (.sql.gz).
+CpanelPostgresBackupCLI es una herramienta de línea de comandos (CLI) escrita en Python que permite realizar respaldos de bases de datos PostgreSQL a través de cPanel utilizando su interfaz de phpPgAdmin. Este script facilita el proceso de autenticación, exportación de datos y estructuras, y descarga de respaldos en formatos plano (.sql) o comprimido (.sql.gz).
 
 Características
 ---------------
@@ -32,7 +32,7 @@ Instalación
 1.  Clona el repositorio:
 
 ```bash
-   git clone https://github.com/tuusuario/cpanel-postgres-backup.git
+   git clone https://github.com/davidmc1996/cpanel-postgres-backup.git
    cd cpanel-postgres-backup
 ```
 
